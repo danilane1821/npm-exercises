@@ -1,4 +1,5 @@
 console.log("hello, world");
 
-const niceMessage = require('./say-hello');
+const {niceMessage, meanMessage} = require('./say-hello');
 console.log(niceMessage());
+console.log(meanMessage());
